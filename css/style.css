@@ -1,0 +1,186 @@
+body{
+	background:#ffffff;
+	text-align:center;
+}
+
+a{
+	text-decoration:none;
+	color:#00a3cc;
+	padding:0 10px;
+}
+
+a:hover{
+	color:#666666;
+}
+
+h1{
+	color:#333333;
+	text-align:center;
+	display:block;
+	font-family:Lucida;
+	font-size:50px;
+}
+
+h2{
+	color:#333333;
+	text-align:center;
+	display:block;
+	font-family:Lucida;
+	font-size:35px;
+}
+
+p{
+	color:#555753;
+	font-family:Lucida;
+	font-size:20px;
+}
+
+.profile{
+	color:#555753;
+	font-family:Lucida;
+	font-size:20px;
+}
+
+#footer{
+	color:black;
+	font-family:Lucida;
+	font-size:12px;
+}
+
+
+#container{
+	width:80%;
+	margin:0 auto;
+	overflow:auto;
+	clear:both;
+        transition:width 1s;
+}
+
+#content {
+	width:90%;
+	overflow:auto;
+	margin:auto;
+	display:block;
+	position:relative;
+        transition:width 1s;
+}
+
+#main-header{
+	display:block;
+        width:90%;
+        text-align:center;
+        transition:height 1s;
+}
+
+#bottom {
+	padding:20px 0 0 0;
+}
+
+ul {
+	display:inline-block;
+}
+
+.justdisp{
+	text-align:justify;
+	font-family:times;
+	font-size:18px;
+}
+ul li{
+	display:inline-block;
+	font-family:Lucida;
+	font-size:24px;
+	
+}
+
+span{
+	color:#555753;
+	font-family:Lucida;
+	text-align:left;
+	font-size:20px;
+}
+
+li a.active{
+	color:#555753;
+}
+
+#interest{
+	color:#804000;
+}
+
+#logo{
+	font-size:6px;
+}
+
+.logoref{
+	color:#008080;
+}
+
+.logoref:hover{
+	color:#008080;
+}
+
+#fulltime{
+        color:#0059b3;
+}
+
+.scrollToTop{
+    width:20px;
+    height: 40px;
+    background-image: url('arrow.png');
+    position:fixed;
+    right:100px;
+    bottom:30px;
+    display:none;
+}
+
+.calllogo{
+    height:20px;
+    width:20px;
+}
+
+.vg{
+   width:99%;
+   display:block;
+   text-align:center;
+}
+
+@media only screen and (min-width:244px) and (max-width:768px){
+	#container{
+		width:95%;
+	}
+	
+	#content{
+		width:100%;
+	}
+
+        ul {
+	        display:block;
+        }
+        
+        ul li{
+	        display:block;
+        }
+}
+
+@media only screen and (min-width:769px) and (max-width:968px){
+	#container{
+		width:90%;
+	}
+	
+	#content{
+		width:100%;
+	}
+
+        ul {
+	        display:block;
+        }
+        
+        ul li{
+	        display:block;
+        }
+        #main-header{
+                display:block;
+
+                transition:width 1s;
+        }
+}
